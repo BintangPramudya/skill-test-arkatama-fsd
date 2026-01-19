@@ -1,6 +1,6 @@
 # 🐾 PetCare+ — Aplikasi Klinik Hewan
 
-PetCare+ adalah aplikasi manajemen klinik hewan sederhana yang dibangun menggunakan **Laravel 11** dan **Filament v4**.  
+PetCare+ adalah aplikasi manajemen klinik hewan sederhana yang dibangun menggunakan **Laravel 12** dan **Filament v4**.  
 Aplikasi ini dibuat untuk memenuhi **Skill Test Full Stack Developer – PT Arkatama Multi Solusindo** dengan fokus pada **CRUD**, **validasi data**, dan **logika backend**.
 
 ---
