@@ -5,6 +5,8 @@ namespace App\Filament\Resources\Checkups\Tables;
 use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\EditAction;
+use Filament\Actions\ViewAction;
+use Filament\Schemas\Components\View;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
@@ -50,6 +52,8 @@ class CheckupsTable
 
             ->recordActions([
                 EditAction::make(),
+                ViewAction::make()
+                    ->label('Lihat Detail'),
             ])
 
             ->toolbarActions([

@@ -71,7 +71,7 @@ class PetsTable
             ->recordActions([
                 EditAction::make(),
                 ViewAction::make()
-                    ->label('View')
+                    ->label('Lihat Detail')
                     ->icon('heroicon-o-eye'),
             ])
 
